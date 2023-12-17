@@ -70,8 +70,8 @@ alt + {_,shift + }Tab
 	bspc node -f {next,prev}.local
 
 # focus the next/previous desktop in the current monitor
-#super + bracket{left,right}
-#	bspc desktop -f {prev,next}.local
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -136,29 +136,29 @@ super + alt + {Left,Down,Up,Right}
 # ---------------------------------------------
 
 #Thunar
-super + shift + f 
+alt + shift + f 
 		thunar
 #Telegram
-super + shift + t
+alt + shift + g
 		telegram-desktop
 #Midori
-super + shift + w
+alt + shift + w
 		midori
 #QMPlay2
-super + shift + p
+alt + shift + p
 		/home/reithe/Applications/QMPlay2.AppImage
 #Browser
-super + shift + i
+alt + shift + i
 	chromium
 
-#Area Screenshot
-Print
-	/usr/bin/flameshot gui
+#Print
+	/usr/bin/flameshot Gui
+
 #Ranger
-super + shift + r
+alt + shift + r
 	Ranger
 #Discord
-super + shift + d
+alt + shift + d
 
 	discord
 
