@@ -114,12 +114,12 @@ super + ctrl + alt + space
 
 # expand a window by moving one of its side outward
 #super + alt + {h,j,k,l}
-super + alt + {i,l,9,p}
+super + alt + {u,k,8,o}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
 #super + alt + shift + {h,j,k,l}
-super + alt + shift + {i,l,9,p}
+super + alt + shift + {u,k,8,o}
         bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
@@ -142,13 +142,13 @@ super + shift + f
 super + shift + t
 		telegram-desktop
 #Midori
-super + shift + m
+super + shift + w
 		midori
 #QMPlay2
 super + shift + p
 		/home/reithe/Applications/QMPlay2.AppImage
 #Browser
-super + shift + w
+super + shift + i
 	chromium
 
 #Area Screenshot
@@ -167,7 +167,7 @@ super + shift + d
 #	env WINEPREFIX="/home/mruniverse/.wine" wine C:\\Program\ Files\ \(x86\)\\Rosetta\ Stone\\Rosetta\ Stone\ TOTALe\\RosettaStoneTOTALe.exe 
 
 #Lollypop
-super + shift + l
+super + shift + m
         lollypop
 
 #Cerrar session
