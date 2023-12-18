@@ -1,64 +1,71 @@
-font:
-  normal:
-    family: "JetBrainsMono Nerd Font"
-  bold:
-    family: "JetBrainsMono Nerd Font"
-  italic:
-    family: "JetBrainsMono Nerd Font"
-  bold_italic:
-    family: "JetBrainsMono Nerd Font"
-  size: 10
+items:
+  - colors:
+      name: TokyoNight Storm
+      author: Folke
+      # Default colors
+      primary:
+        background: '0x24283b'
+        foreground: '0xc0caf5'
 
-draw_bold_text_with_bright_colors: true
-window:
-  opacity: 0.87
-#import:
-# uncomment the flavour you want below:
-#  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
-#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+      # Normal colors
+      normal:
+        black: '0x1D202F'
+        red: '0xf7768e'
+        green: '0x9ece6a'
+        yellow: '0xe0af68'
+        blue: '0x7aa2f7'
+        magenta: '0xbb9af7'
+        cyan: '0x7dcfff'
+        white: '0xa9b1d6'
+
+      # Bright colors
+      bright:
+        black: '0x414868'
+        red: '0xf7768e'
+        green: '0x9ece6a'
+        yellow: '0xe0af68'
+        blue: '0x7aa2f7'
+        magenta: '0xbb9af7'
+        cyan: '0x7dcfff'
+        white: '0xc0caf5'
+
+      indexed_colors:
+        - { index: 16, color: '0xff9e64' }
+        - { index: 17, color: '0xdb4b4b' }
+  - theme: Tokyonight_Storm
 colors:
   # Default colors
   primary:
-    background: '#232627'
-    foreground: '#fcfcfc'
+    background: '0x1E1D2F'
+    foreground: '0xD9E0EE'
 
-    dim_foreground: '#eff0f1'
-    bright_foreground: '#ffffff'
-    dim_background: '#31363b'
-    bright_background: '#000000'
+  cursor:
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
 
   # Normal colors
   normal:
-    black: '#232627'
-    red: '#ed1515'
-    green: '#11d116'
-    yellow: '#f67400'
-    blue: '#1d99f3'
-    magenta: '#9b59b6'
-    cyan: '#1abc9c'
-    white: '#fcfcfc'
+    black: '0x6E6C7E'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
 
   # Bright colors
   bright:
-    black: '#7f8c8d'
-    red: '#c0392b'
-    green: '#1cdc9a'
-    yellow: '#fdbc4b'
-    blue: '#3daee9'
-    magenta: '#8e44ad'
-    cyan: '#16a085'
-    white: '#ffffff'
+    black: '0x988BA2'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
 
-  # Dim colors
-  dim:
-    black: '#31363b'
-    red: '#783228'
-    green: '#17a262'
-    yellow: '#b65619'
-    blue: '#1b668f'
-    magenta: '#614a73'
-    cyan: '#186c60'
-    white: '#63686d'
-theme: Breeze
+  indexed_colors:
+    - { index: 16, color: '0xF8BD96' }
+    - { index: 17, color: '0xF5E0DC' }
+theme: Catppuccin
