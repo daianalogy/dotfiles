@@ -1,0 +1,48 @@
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+  bold:
+    family: "JetBrainsMono Nerd Font"
+  italic:
+    family: "JetBrainsMono Nerd Font"
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+  size: 10
+
+draw_bold_text_with_bright_colors: true
+window:
+  opacity: 0.87
+#import:
+# uncomment the flavour you want below:
+#  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+colors:
+  name: Epiphany
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#565656"
+    red: "#ac4f4f"
+    green: "#88ab77"
+    yellow: "#d0d9ad"
+    blue: "#677088"
+    magenta: "#cdcdb4"
+    cyan: "#445362"
+    white: "#ffffff"
+  bright:
+    black: "#656565"
+    red: "#e85555"
+    green: "#8ccd6c"
+    yellow: "#c5d67d"
+    blue: "#647396"
+    magenta: "#cdb4c9"
+    cyan: "#505b6c"
+    white: "#c0c0c0"
+theme: Epiphany

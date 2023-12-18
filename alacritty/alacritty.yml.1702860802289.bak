@@ -1,0 +1,43 @@
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+  bold:
+    family: "JetBrainsMono Nerd Font"
+  italic:
+    family: "JetBrainsMono Nerd Font"
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+  size: 10
+
+draw_bold_text_with_bright_colors: true
+window:
+  opacity: 0.87
+#import:
+# uncomment the flavour you want below:
+#  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+colors:
+  primary:
+    background: '#191c25'
+    foreground: '#b5b4c9'
+  normal:
+    black: '#2e313d'
+    red: '#cf8164'
+    green: '#76a065'
+    yellow: '#ab924c'
+    blue: '#8296b0'
+    magenta: '#a18daf'
+    cyan: '#659ea2'
+    white: '#b5b4c9'
+  bright:
+    black: '#5b5f71'
+    red: '#fe9f7c'
+    green: '#92c47e'
+    yellow: '#d2b45f'
+    blue: '#a0b9d8'
+    magenta: '#c6aed7'
+    cyan: '#7dc2c7'
+    white: '#f0ecfe'
+theme: Substrata

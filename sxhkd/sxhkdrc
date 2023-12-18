@@ -92,7 +92,7 @@ super + {alt,shift + }{1-9,0}
 #
 
 # preselect the direction
-super + ctrl + alt + {Left,Down,Up,Right}
+super + ctrl + alt + {i,l,9,p}
 	bspc node -p {west,south,north,east}
 
 
@@ -105,8 +105,8 @@ super + ctrl + space
 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
-super + ctrl + alt + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+#super + ctrl + alt + space
+#	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 #
 # move/resize
@@ -114,12 +114,12 @@ super + ctrl + alt + space
 
 # expand a window by moving one of its side outward
 #super + alt + {h,j,k,l}
-super + alt + {u,k,8,o}
+super + ctrl + {Left,Down,Up,Right}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
 #super + alt + shift + {h,j,k,l}
-super + alt + shift + {u,k,8,o}
+super + ctrl + alt + {Left,Down,Up,Right}
         bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
@@ -131,6 +131,7 @@ super + alt + {Left,Down,Up,Right}
 	/home/reithe/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
 
+#
 # ---------------------------------------------
 # CUSTOM
 # ---------------------------------------------
@@ -152,7 +153,7 @@ alt + shift + i
 	chromium
 
 #Print
-	/usr/bin/flameshot Gui
+	/usr/bin/flameshot
 
 #Ranger
 alt + shift + r
@@ -167,11 +168,11 @@ alt + shift + d
 #	env WINEPREFIX="/home/mruniverse/.wine" wine C:\\Program\ Files\ \(x86\)\\Rosetta\ Stone\\Rosetta\ Stone\ TOTALe\\RosettaStoneTOTALe.exe 
 
 #Lollypop
-super + shift + m
+alt + shift + m
         lollypop
 
 #Cerrar session
-super + x
+alt + x
         /home/reithe/.config/rofi/applets/bin/powermenu.sh
 
 
