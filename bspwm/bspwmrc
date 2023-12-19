@@ -6,8 +6,8 @@ xsetroot -cursor_name left_ptr &
 
 pkill picom
 picom --config /home/reithe/.config/picom/picom.conf &
-nitrogen --restore &
-#feh --bg-fill /home/reithe/Pictures/wallhaven-kw92d6.jpg &
+#nitrogen --restore &
+feh --bg-fill --randomize ~/Pictures/walls/* &
 wmname LG3D &
 export _JAVA_AWT_WM_NONREPARENTING=1 &
 
