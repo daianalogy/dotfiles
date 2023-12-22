@@ -26,7 +26,7 @@ bspc config pointer_action3  resize_corner
 bspc rule -a galculator state=floating
 bspc rule -a discord state=floating
 #bspc rule -a Lollypop state=floating
-bspc rule -a QMPlay2 state=floating
+bspc rule -a mpv state=floating
 bspc rule -a AppRun.wrapped state=floating
 
 
