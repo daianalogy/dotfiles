@@ -8,7 +8,7 @@ pkill picom
 picom --config /home/reithe/.config/picom/picom.conf &
 #nitrogen --restore &
 feh --bg-fill --randomize ~/Pictures/walls/* &
-wmname LG3D &
+#wmname LG3D &
 export _JAVA_AWT_WM_NONREPARENTING=1 &
 
 killall bspwm_nobor bspc xfce4-panel
@@ -25,7 +25,7 @@ bspc config pointer_action3  resize_corner
 
 bspc rule -a galculator state=floating
 bspc rule -a discord state=floating
-#bspc rule -a Lollypop state=floating
+bspc rule -a GLava state=floating
 bspc rule -a mpv state=floating
 bspc rule -a AppRun.wrapped state=floating
 
