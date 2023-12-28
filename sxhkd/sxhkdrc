@@ -143,8 +143,8 @@ alt + shift + f
 alt + shift + g
 		telegram-desktop
 #Midori
-alt + shift + w
-		midori
+alt + shift + m
+	waterfox
 #QMPlay2
 alt + shift + p
 		/home/reithe/Applications/QMPlay2.AppImage
@@ -152,8 +152,8 @@ alt + shift + p
 alt + shift + i
 	chromium
 
-#Print
-	/usr/bin/flameshot
+Print
+	flameshot gui
 
 #Ranger
 alt + shift + r

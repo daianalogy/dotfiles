@@ -19,6 +19,7 @@ bspc monitor VGA1 -d I II III IV V
 
 bspc config pointer_modifier mod1
 bspc config pointer_action1  move
+bspc config pointer_action2  resize_side
 bspc config pointer_action3  resize_corner
 
 #bspc monitor -d I II III IV V
@@ -27,6 +28,7 @@ bspc rule -a galculator state=floating
 bspc rule -a discord state=floating
 bspc rule -a GLava state=floating
 bspc rule -a mpv state=floating
+bspc rule -a zenity state=floating
 bspc rule -a AppRun.wrapped state=floating
 
 
