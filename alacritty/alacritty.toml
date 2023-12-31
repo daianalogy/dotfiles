@@ -1,5 +1,5 @@
 #theme = "Catppuccin"
-
+#testing
 [[colors.indexed_colors]]
 color = "0xF8BD96"
 index = 16
