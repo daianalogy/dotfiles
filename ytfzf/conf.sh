@@ -12,7 +12,7 @@
 #ytdl_pref="396+bestaudio/bestaudio"
 #ytdl_pref="bestvideo[height=?360][fps<=?30][vcodec^=avc1]+bestaudio/best[height=?360]"
 #ytdl_pref="bestvideo[height=?720][fps<=?30][vcodec!=?vp9]+bestaudio/best"
-video_pref="bestvideo[height=?480]"
+video_pref="bestvideo[height=?720]"
 fullscreen=1
 #scrape 1 video link per channel instead of the default 2
 sub_link_count=1
