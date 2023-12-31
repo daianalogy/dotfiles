@@ -1,0 +1,9 @@
+-set replaygain=album
+-set    format_playlist=%-17%A │ %{?y?(%y) %-27%l?%-27%l       } │ %{?n?%2n.?   } %t%{?va? (%a)?}%= %d
+-set format_playlist_va=%-17%A │ %{?y?(%y) %-27%l?%-27%l       } │ %{?n?%2n.?   } %t%{?va? (%a)?}%= %d
+-set     format_current=%-17%A │ %{?y?(%y) %-27%l?%-27%l       } │ %{?n?%2n.?   } %t%{?va? (%a)?}%= %d
+-set status_display_program=~/.config/lemonbar/cmus_status.sh
+-
+-bind common U unmark
+-shell cmus-load-queue.sh
+-view 4>

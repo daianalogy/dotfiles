@@ -1,6 +1,10 @@
 /*
+!/glava/
+/alacritty/*.bak
 !/alacritty/
 !/picom/
+/cmus/cache
+!/cmus/
 !/mpv/
 !/bspwm/
 !/polybar/
