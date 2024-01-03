@@ -14,7 +14,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1 &
 killall bspwm_nobor bspc xfce4-panel
 ~/.config/bspwm/scripts/bspwm_noborder &
 #polybar -q main -c
-bspc monitor VGA1 -d I II III IV V
+bspc monitor VGA-1 -d I II III IV V
 ~/polybar-collection/launch.sh &
 
 bspc config pointer_modifier mod1
