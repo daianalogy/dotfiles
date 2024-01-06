@@ -175,13 +175,10 @@ alt + shift + m
 alt + x
         /home/reithe/.config/rofi/applets/bin/powermenu.sh
 
-#Brightness up
-XF86MonBrightnessUp
-    xbacklight -inc 10
 
-#Brightness down
-XF86MonBrightnessDown
-    xbacklight -dec 10
+#Brightness
+XF86MonBrightness{Up,Down}
+    brightnessctl set 355{+,-}
 
 #################################################################
 #     MULTIMEDIA KEYS

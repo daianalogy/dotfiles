@@ -15,7 +15,7 @@ killall bspwm_nobor bspc xfce4-panel
 ~/.config/bspwm/scripts/bspwm_noborder &
 #polybar -q main -c
 bspc monitor VGA-1 -d I II III IV V
-~/polybar-collection/launch.sh &
+~/.config/polybar/launch.sh --colorblocks &
 
 bspc config pointer_modifier mod1
 bspc config pointer_action1  move
