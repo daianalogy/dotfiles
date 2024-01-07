@@ -1,5 +1,5 @@
 #! /bin/sh
-
+fixaudio &
 pkill sxhkd
 sxhkd &
 xsetroot -cursor_name left_ptr &
