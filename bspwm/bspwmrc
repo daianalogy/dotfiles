@@ -8,7 +8,7 @@ pkill picom
 picom --config /home/reithe/.config/picom/picom.conf --legacy-backends &
 #nitrogen --restore &
 feh --bg-fill --randomize ~/Pictures/walls/* &
-xrandr --output VGA1 --rate 75 --right-of LVDS1 &
+xrandr --output VGA1 --mode 1440x900 --rate 75 --right-of LVDS1 &
 #wmname LG3D &
 export _JAVA_AWT_WM_NONREPARENTING=1 &
 
@@ -17,7 +17,8 @@ killall bspwm_nobor bspc xfce4-panel
 #polybar -q main -c
 bspc monitor VGA1 -d I II III IV V
 ~/.config/polybar/launch.sh --shapes &
-nm-applet &
+nm-applet & 
+xfce4-clipman-plugin &
 amixer -c 0 set 'Speaker+LO' 100% &
 
 bspc config pointer_modifier mod1
@@ -61,5 +62,5 @@ bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 bspc config pointer_motion_interval 40
 
-#picom --experimental-backends -b
+picom --experimental-backends -b
 
